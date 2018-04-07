@@ -1,0 +1,52 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /*background-position: center;*/
+    /*background-image: url("laptop.jpg");*/
+    /*background-repeat: no-repeat;*/
+    max-height:100%;
+    max-width:100%;
+    font-family: 'Lucida Sans Unicode';
+}
+
+header.startup {
+    background-position: center;
+    background-image: url("laptop.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+header.startup h1 {
+    font-size: 2rem;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.button1 {
+    margin-top: 510px;
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: orange;
+    border-color: orange;
+    transition: all 1s;
+}
+
+.btn-primary:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    transform: scale(1.1);
+}
